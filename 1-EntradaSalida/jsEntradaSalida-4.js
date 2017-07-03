@@ -4,6 +4,16 @@
 */
 function Mostar()
 {
-	
+
+var pregunta;
+
+var respuesta;
+
+pregunta = prompt ("cual es la pregunta");
+
+document.getElementById ("elNombre").value = respuesta
+
+alert (MiBotonUTN);
+
 }
 
