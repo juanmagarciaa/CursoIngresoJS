@@ -12,16 +12,16 @@ var mensaje1;
 
 var mensaje2;
 
-mensaje1 = ("usted se llama");
+mensaje1 = "usted se llama";
 
-mensaje2 = ("y tiene");
+mensaje2 = "y tiene";
 
-document.getElementById ("elNombre").value = nombre;
+nombre = document.getElementById ("elNombre").value;
 
-document.getElementById ("laEdad").value = edad;
+edad = document.getElementById ("laEdad").value;
 
 resultado = mensaje1 + nombre + mensaje2 + edad;
 
-alert (MiBotonUTN) ;
+alert (resultado) ;
 
 }
