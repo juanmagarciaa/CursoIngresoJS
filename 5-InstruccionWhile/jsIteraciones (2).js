@@ -6,7 +6,7 @@ num=10;
 
 document.getElementById ("FormIngreso").value;
 
-while (num >= 1);
+while (num >= 1)
 
 {
 
