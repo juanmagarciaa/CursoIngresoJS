@@ -26,6 +26,16 @@ alert (MayorEdad);
 
 }
 
-else ()
+else (edad>=13 || edad<=17)
+
+{
+
+alert (Adolescente);    
+}
+
+{
+alert (MenorEdad);
+
+}
 
 }//FIN DE LA FUNCIÓN

@@ -3,17 +3,16 @@
 	y lo muestro por 'getElementById' al presionar el botón 'MOSTRAR'
 */
 function Mostar()
+
 {
 
 var pregunta;
 
-var respuesta;
+pregunta = prompt ("digame su nombre");
 
-pregunta = prompt ("cual es la pregunta");
+document.getElementById("elNombre").value= pregunta; 
 
-document.getElementById ("elNombre").value = respuesta
-
-alert (MiBotonUTN);
+alert (pregunta);
 
 }
 

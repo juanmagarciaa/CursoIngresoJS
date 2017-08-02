@@ -8,7 +8,7 @@ num=0;
 
 document.getElementById ("FormIngreso").value = num;
 
-while (num <=9);
+while (num <=9)
 
 {
 
